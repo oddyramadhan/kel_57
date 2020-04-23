@@ -1,0 +1,93 @@
+def xl():
+    print("\n")
+    print("----------------- MENU -----------------")
+    print("[1] Paket XL 5  GB Rp 40.000")
+    print("[2] Paket XL 8  GB Rp 50.000")
+    print("[3] Paket XL 15 GB Rp 100.000")
+    print("[4] Paket XL 25 GB Rp 150.000")
+    x = float(input("\nSilahkan Pilih Paket yang Anda Inginkan:\n"))
+    if x == 1:
+        print("\nAnda akan membeli paket XL 5 GB?")
+        print("[1] Ya")
+        print("[2] Tidak")
+        x = float (input("\nMasukkan pilihan:\n"))
+        if x==1:
+            print("\nSelamat paket 5 GB anda selama 30 hari sudah aktif\n\n")
+        else :
+            xl()
+    elif x == 2:
+        print("\nAnda akan membeli paket XL 8 GB?")
+        print("[1] Ya")
+        print("[2] Tidak")
+        x = float (input("\nMasukkan pilihan:\n"))
+        if x==1:
+            print("\nSelamat paket 8 GB anda selama 30 hari sudah aktif\n\n")
+        else :
+            xl()
+    elif x ==3:
+        print("\nAnda akan membeli paket XL 15 GB?")
+        print("[1] Ya")
+        print("[2] Tidak")
+        x = float (input("\nMasukkan pilihan:\n"))
+        if x==1:
+            print("\nSelamat paket 15 GB anda selama 30 hari sudah aktif\n\n")
+        else :
+            xl()
+    elif x ==4:
+        print("\nAnda akan membeli paket XL 25 GB?")
+        print("[1] Ya")
+        print("[2] Tidak")
+        x = float (input("\nMasukkan pilihan:\n"))
+        if x==1:
+            print("\nSelamat paket 25 GB anda selama 30 hari sudah aktif\n\n")
+        else :
+            xl()
+    else :
+        menu()
+
+def Axis():
+    print("\n")
+    print("----------------- MENU -----------------")
+    print("[1] Paket Axis 5  GB Rp 20.000")
+    print("[2] Paket Axis 7  GB Rp 35.000")
+    print("[3] Paket Axis 10 GB Rp 50.000")
+    print("[4] Paket Axis 12 GB Rp 55.000")
+    x = float(input("\nSilahkan Pilih Paket yang Anda Inginkan:"))
+    if x ==1:
+        print("\nAnda akan membeli paket Axis 5 GB?")
+        print("[1] Ya")
+        print("[2] Tidak")
+        x = float (input("\nMasukkan pilihan:\n"))
+        if x==1:
+            print("\nSelamat paket 5 GB anda selama 30 hari sudah aktif")
+        else :
+            Axis()
+    elif x == 2:
+        print("\nAnda akan membeli paket Axis 7 GB?")
+        print("[1] Ya")
+        print("[2] Tidak")
+        x = float (input("\nMasukkan pilihan:\n"))
+        if x==1:
+            print("\nSelamat paket 7 GB anda selama 30 hari sudah aktif")
+        else :
+            Axis()
+    elif x ==3:
+        print("\nAnda akan membeli paket Axis 10 GB?")
+        print("[1] Ya")
+        print("[2] Tidak")
+        x = float (input("\nMasukkan pilihan:\n"))
+        if x==1:
+            print("\nSelamat paket 10 GB anda selama 30 hari sudah aktif")
+        else :
+            Axis()
+    elif x ==4:
+        print("\nAnda akan membeli paket Axis 12 GB?")
+        print("[1] Ya")
+        print("[2] Tidak")
+        x = float (input("\nMasukkan pilihan:\n"))
+        if x==1:
+            print("\nSelamat paket 12 GB anda selama 30 hari sudah aktif")
+        else :
+            Axis()
+    else :
+        menu()
